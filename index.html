@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>From scratch v2</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class='container-fluid'>
+
+<!-- Header -->
+	<div class="row">
+		<div class="headerContainer">
+			
+			<div class="col-md-6">
+				<div class="logo"></div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="form-group">
+					<div class="searchh">
+					<button type="button" style="height: 30px; width: 68px; background-color: #d54346; color: #fff; font-size: 12px; border: none; float: right; padding-top: 5px">SEARCH</button>
+					<input type="text" class="form-control check" id="usr" value="Search our Website.." style="width: 216px; height: 30px; float: right; background-color: #fff">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+<!-- End of header -->
+
+<!-- Navigation / Social -->
+	<div class="row">
+		<div class="navigationContainer">
+			<div class="col-md-8" >
+					
+				<a href="#" ><img src="images/homepage.png" ></a>
+				<a href="#" ><img src="images/styleDemo.png" ></a>
+				<a href="#" ><img src="images/fullWidth.png" ></a>
+				<a href="#" ><img src="images/portfolio.png" ></a>
+				<a href="#" ><img src="images/gallery.png" ></a>
+
+				<div class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" ><img src="images/dropdown.png" ></a>
+						<ul class="dropdown-menu">
+			            <li><a href="#">Action</a></li>
+			            <li><a href="#">Another action</a></li>
+			            <li><a href="#">Something else here</a></li>
+			            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+	          		</ul>
+	          		</div>
+         
+			</div>
+			<div class="col-md-4" style="text-align: right; padding-top: 20px; padding-right: 87px">
+
+				<a href="#"> <img src="images/social_in.png" 
+									onmouseover="this.src='images/social_in_active.png';" 
+									onmouseout="this.src='images/social_in.png';"
+									style="padding-right: 5px; padding-left: 5px" ></a>
+
+				<img src="images/social_twitter.png" 
+									onmouseover="this.src='images/social_twitter_active.png';" 
+									onmouseout="this.src='images/social_twitter.png';"
+									style="padding-right: 5px; padding-left: 5px" ></a>
+
+				<img src="images/social_mail.png" 
+									onmouseover="this.src='images/social_mail_active.png';" 
+									onmouseout="this.src='images/social_mail.png';"
+									style="padding-right: 5px; padding-left: 5px" ></a>
+
+				<img src="images/social_gplus.png" 
+									onmouseover="this.src='images/social_gplus_active.png';" 
+									onmouseout="this.src='images/social_gplus.png';"
+									style="padding-right: 5px; padding-left: 5px" ></a>
+
+				<img src="images/social_rss.png" 
+									onmouseover="this.src='images/social_rss_active.png';" 
+									onmouseout="this.src='images/social_rss.png';"
+									style="padding-right: 5px; padding-left: 5px" ></a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="sliderContainer">
+			
+
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/1.jpg" alt="Los Angeles" style="width:100%;">
+         	<div class="carousel-caption">
+	        	<h3>Some h3 text here </h3>
+	        	<h4>Some h4 text here </h4>
+      		</div>
+      </div>
+
+      <div class="item">
+        <img src="images/2.jpg" alt="Chicago" style="width:100%;">
+            <div class="carousel-caption">
+	        	<h3>Some h3 text here </h3>
+	        	<h4>Some h4 text here </h4>
+      		</div>
+      </div>
+    
+      <div class="item">
+        <img src="images/3.jpg" alt="New york" style="width:100%;">
+            <div class="carousel-caption">
+	        	<h3>Some h3 text here </h3>
+	        	<h4>Some h4 text here </h4>
+      		</div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+		</div>
+	</div>
+
+
+	<div class="col-md-12" style="margin-top: 50px;">
+		<div class="title">This could be your text</div>
+		<div class="title2" style="margin-top: 10px">This could be your text</div>
+	</div>
+
+	<div class="row" style="margin-top: 50px;">
+	<div class="col-md-2"></div>
+		<div class="col-md-2">
+			<img src="images/profile.png" style="display: block; margin-left: auto; margin-right: auto ">
+			<div class="name"> John Doe </div>
+			<div class="profile"> >> Profile << </div>
+		</div>
+
+		<div class="col-md-2">
+			<img src="images/profile.png" style="display: block; margin-left: auto; margin-right: auto ">
+			<div class="name"> John Doe </div>
+			<div class="profile"> >> Profile << </div>
+		</div>
+
+		<div class="col-md-2">
+			<img src="images/profile.png" style="display: block; margin-left: auto; margin-right: auto ">
+			<div class="name"> John Doe </div>
+			<div class="profile"> >> Profile << </div>
+		</div>
+
+		<div class="col-md-2">
+			<img src="images/profile.png" style="display: block; margin-left: auto; margin-right: auto ">
+			<div class="name"> John Doe </div>
+			<div class="profile"> >> Profile << </div>
+		</div>
+
+	</div>
+
+	<div class="row" align="center">
+		<div class="col-md-12">
+			<hr>
+		</div>
+	</div>
+
+	<!-- Latest projects -->
+	<div class="row">
+		<div class="col-md-1"></div>
+
+		<div class="col-md-3">
+			<div class="latestTitle">Our latest</div>
+			<div class="latestTitle2">Project work >></div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="projectImg"> <img src="images/projectImg.png" style="display: block; margin-left: auto; margin-right: auto "></div>
+			<div class="projectTitle">Your title here</div>
+			<div class="projectDescribsion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend scelerisque libero imperdiet placerat. Vivamus fringilla lacus iaculis nunc fringilla vestibulum.</div>
+			<a href="#"><img src="images/readMore.png" style="display: block; margin-left: auto; margin-right: auto; margin-top: 23px; "></a>
+		</div>
+
+		<div class="col-md-3">
+			<div class="projectImg"><img src="images/projectImg.png" style="display: block; margin-left: auto; margin-right: auto "></div>
+			<div class="projectTitle">Your title here</div>
+			<div class="projectDescribsion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend scelerisque libero imperdiet placerat. Vivamus fringilla lacus iaculis nunc fringilla vestibulum.</div>
+			<a href="#"><img src="images/readMore.png" style="display: block; margin-left: auto; margin-right: auto; margin-top: 23px; "></a>
+		</div>
+	</div>
+
+	<div class="row" style="margin-top: 20px;">
+		<div class="col-md-4" style="background-color: #d54346; min-height: 300px;">
+
+			<div class="footerTitle">About us</div>
+			<div class="footerTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend scelerisque libero imperdiet placerat. Vivamus fringilla lacus iaculis nunc fringilla vestibulum.</div>
+
+
+			<div class="footerTitle">from the blog</div>
+			<div class="footerTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend scelerisque libero imperdiet placerat. Vivamus fringilla lacus iaculis nunc fringilla vestibulum.</div>
+
+
+		</div>
+
+		<div class="col-md-4" style="background-color: #d54346; min-height: 300px;">
+
+			<div class="footerTitle">link block</div>
+
+			<div class="footerLinks" style="margin-top: 20px"> <span style="color:white">&raquo; </span><a href="#"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </a></div>
+			<div class="footerLinks"> <span style="color:white">&raquo; </span><a href="#"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </a></div>
+			<div class="footerLinks"> <span style="color:white">&raquo; </span><a href="#"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </a></div>
+			<div class="footerLinks"> <span style="color:white">&raquo; </span><a href="#"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </a></div>
+			<div class="footerLinks"> <span style="color:white">&raquo; </span><a href="#"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </a></div>
+
+		</div>
+
+		<div class="col-md-4" style="background-color: #d54346; min-height: 300px;">
+			<div class="footerTitle">Newsletter</div>
+			<div class="footerTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend scelerisque libero imperdiet placerat. Vivamus fringilla lacus iaculis nunc fringilla vestibulum.</div>
+
+			<input type="text" class="form-control check" id="usr" value="Name" style="width: 300px; height: 30px; margin-top: 10px; float: left; background-color: #fff">
+			<input type="text" class="form-control check" id="usr" value="Email" style="width: 300px; height: 30px; margin-top: 10px; float: left; background-color: #fff">
+			<button type="button" style="height: 30px; width: 68px; background-color: #871f21; border-radius: 10px; color: #fff; font-size: 12px; border: none; float: left; padding-top: 5px; clear: both; margin-top: 10px; ">SUBMIT</button>
+
+
+		</div>
+	</div>
+	<div class="row" style="background-image: url(images/footer.png); min-height: 50px">
+		<div class="col-md-6 col-sm-6"><div class="codeBy"> Code: Žygimantas Naglis</div></div>
+		<div class="col-md-6"><div class="designBy">Template by OS Templates</div></div>
+	</div>
+
+</div>
+
+
+
+
+</body>
+</html>
